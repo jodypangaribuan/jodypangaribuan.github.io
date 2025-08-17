@@ -1,0 +1,10 @@
+[
+  {
+    "title": "Example Project",
+    "description": "This is an example project to demonstrate the portfolio layout and functionality. You can replace this with your own project details.",
+    "technology": "React, JavaScript, CSS",
+    "visibleProject": "Public",
+    "image": "../projects/example.png",
+    "link": "https://github.com/jodypangaribuan"
+  }
+]
