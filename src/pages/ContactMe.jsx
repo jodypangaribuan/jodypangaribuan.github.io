@@ -7,6 +7,8 @@ import { MdEmail } from "@react-icons/all-files/md/MdEmail";
 import { motion } from "framer-motion";
 
 import { SiGmail } from "@react-icons/all-files/si/SiGmail";
+import { FaInstagram } from "react-icons/fa";
+import {IoGlobeOutline} from "react-icons/io5"
 import { useRef, useState } from "react";
 import { CopyBlock, atomOneDark } from "react-code-blocks";
 
@@ -229,6 +231,20 @@ function Contacts() {
             >
               <SiGmail />
               <span>Jody Pangaribuan</span>
+            </a>
+            <a
+              href="https://www.instagram.com/jody.drian/"
+              className="text-[#607B96] hover:text-white inline-flex items-center gap-2.5 transition-colors"
+            >
+              <FaInstagram />
+              <span>jody.drian</span>
+            </a>
+            <a
+              href="https://jodypangaribuan-github-io.vercel.app/"
+              className="text-[#607B96] hover:text-white inline-flex items-center gap-2.5 transition-colors"
+            >
+              <IoGlobeOutline />
+              <span>my site</span>
             </a>
           </Popover.Panel>
         </Transition>
