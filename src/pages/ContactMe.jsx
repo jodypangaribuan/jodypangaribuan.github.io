@@ -3,7 +3,6 @@ import { Popover, Transition } from "@headlessui/react";
 import { AiOutlineClose } from "@react-icons/all-files/ai/AiOutlineClose";
 import { GoTriangleDown } from "@react-icons/all-files/go/GoTriangleDown";
 import { GrLinkedinOption } from "@react-icons/all-files/gr/GrLinkedinOption";
-import { MdEmail } from "@react-icons/all-files/md/MdEmail";
 import { motion } from "framer-motion";
 
 import { SiGmail } from "@react-icons/all-files/si/SiGmail";
@@ -217,7 +216,7 @@ function Contacts() {
         >
           <Popover.Panel className="p-4 w-full flex flex-col gap-1.5">
             <a
-              href=""
+              href="https://www.linkedin.com/in/jody-pangaribuan"
               className="text-[#607B96] hover:text-white inline-flex items-center gap-2.5 transition-colors"
               target="_blank"
               rel="noreferrer"

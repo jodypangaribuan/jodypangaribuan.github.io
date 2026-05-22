@@ -7,8 +7,6 @@ import { SiMarkdown } from "@react-icons/all-files/si/SiMarkdown";
 import { VscCollapseAll } from "@react-icons/all-files/vsc/VscCollapseAll";
 import { AnimatePresence, motion } from "framer-motion";
 import { useState } from "react";
-import SyntaxHighlighter from "react-syntax-highlighter";
-import { atomOneDark } from "react-syntax-highlighter/dist/esm/styles/hljs";
 
 import { IoLogoPython } from "@react-icons/all-files/io5/IoLogoPython";
 
